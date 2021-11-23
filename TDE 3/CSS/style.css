@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Inter:wght@100;200;300&family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2? family = Griffy & display = swap');
+
+body {
+    background-color: #ffffff50;
+    font-family: 'Griffy', cursiva;
+    background-image: url(/imagens/fundo.jpg);
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+}
+p {
+    margin-top: 0;
+    text-align: justify;
+    font-weight: 500;
+}
+
+a:link { 
+	font-weight: bold; 
+	color: #52c2e4;
+    background-color: #d7ebf7;
+    padding: 2px 5px;
+    text-decoration: none;
+    
+}
+a:hover {  
+	color: black;
+    background-color: #c3d37a;
+    cursor: pointer;
+    text-decoration: underline;
+    font-size: 120%;
+	}
+a:visited {
+    color: cornflowerblue; 
+}
+header {
+    font-family: 'Press Start 2P';
+    text-align: center;
+    font-size: 150%;
+    background: url(https://i.pinimg.com/originals/f6/7a/12/f67a122b8f6af771bcabd8db7c641c5e.gif) repeat;
+    background-size: contain;
+    padding: 20px 0px 20px 0px;
+    max-width: 100%;
+    text-transform: uppercase;
+}
+
+header H1, H2 {
+    color: #fff;
+    opacity: 0.8;  
+}
+.summary {
+    display: flex;
+    flex-direction: column-reverse;
+    color: #fff;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    align-items: center;
+    padding: 20px;
+    background-color: black;
+    width: 43.15%;
+    border: 25px ridge;
+    border-color: #f00 #0f0 #00f #fc0;
+    float: right; 
+}
+.summary a{
+    font-weight: bold; 
+	color: #52c2e4;
+    background-color: rgb(24, 24, 221);
+    padding: 2px 5px;
+}
+.summary a:hover {
+    color: red;
+}
+.preamble, .explanation{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 20px 10px 20px;
+    background-color: ghostwhite;
+    width: 50%;
+    border: 50px;
+    opacity: 0.9;
+    float: left; 
+}
+.participation, .benefits {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 100px;
+    background-color: #c3f7f7;
+    opacity: 0.8;
+    width: 99,5%;
+    float: left;
+}
+
+.preamble h3, .explanation h3, .participation H3, .benefits H3, .requirements H3 {
+    font-family: 'Press Start 2P';
+    font-size: 100%;
+}
+
+.preamble h3, .explanation h3 {
+    color: #52c2e4;
+    text-transform: uppercase;
+    text-shadow: 0 1px 3px rgba(0,0,0,0.5);
+}
+.participation H3, .benefits H3 {
+    color: darkorchid;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 0 1px 3px rgba(0,0,0,0.5);
+}
+.requirements h3{
+    text-align: right;
+    text-transform: uppercase;
+    text-shadow: 0 1px 3px rgba(0,0,0,0.5);
+}
+.requirements {
+    display: flex;
+    flex-direction: column;
+    padding: 100px 20px 170px 20px;
+    background-color: ghostwhite;
+    width: 50%;
+    border: 50px;
+    opacity: 0.8;
+    float: right;  
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    background-image: url(https://64.media.tumblr.com/43a1e8204f611fc2f9ffd9eccc7a455e/tumblr_mwno2t6dys1rfjowdo1_500.gifv);
+    color: rgb(65, 65, 65);
+    opacity: 0.88;
+    background-position: right;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.wrapper ul li {
+    list-style-type: none;
+}
+.design-selection H3, .design-archives H3, .zen-resources H3{
+    font-size: 150%;
+    opacity: 0.8;
+    width: 50%;
+    padding-left: 20px;
+}
+
+.design-selection ul li a, .design-archives ul li a, .zen-resources ul li a{
+    text-align: center;
+    font-size: 130%;
+    opacity: 0.8;
+    width: 50%;
+}
+.design-selection a, .design-archives a, .zen-resources a {
+    background-color: #fff;
+}
+  footer {
+      background-image: url(/imagens/footer.png);
+      background-position: right;
+      padding-top: 396px;
+  }
+
+footer { 
+	text-align: center; 
+}
+footer a:link, footer a:visited footer a:hover { 
+    margin-right: 20px; 
+}
+footer a:hover {
+    font-size: 100%;
+}
